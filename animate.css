@@ -1,0 +1,49 @@
+div {
+    border-left: solid 30px black;
+    border-right: solid 30px black;
+}
+button {
+    color: beige;
+    background: green;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid green;
+    
+    
+    font-size: 20px;
+    font-weight: 700px;
+    animation-name: more-to-right;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes more-to-right {
+    0% {
+        margin-left: 0;
+        border-radius: 5px;
+
+    }
+    20% {
+        background: red;
+        border-radius: 15px;
+    }
+    40% {
+        background: green;
+        border-radius: 35px;
+    }
+    60% {
+        background: blue;
+        border-radius: 55px;
+    }
+    80% {
+        background: skyblue;
+        border-radius: 85px;
+    }
+    100% {
+        margin-left: 1150px;
+        background: gold;
+        border-radius: 100px;
+    }
+}
+

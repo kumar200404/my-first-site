@@ -1,0 +1,53 @@
+body {
+    background: khaki;
+}
+.box {
+    margin: 15px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 30px;            
+
+}
+.box:first-child {
+    background: greenyellow
+
+}
+.box:nth-child(2) {
+    background: hotpink;
+
+}
+.box:nth-child(3) {
+    background: darkblue;
+}
+.box:nth-child(4) {
+    background: skyblue;
+
+}
+.box:nth-child(5) {
+    background: green;
+
+}
+.box:hover {
+    opacity: .5;
+}
+
+a {
+    padding: 15px;
+    border-radius: 3px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+}
+a:active {
+    background: black;
+}
+input:focus {
+    padding: 15px;
+    border: 5px solid blue;
+}

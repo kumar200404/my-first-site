@@ -1,0 +1,32 @@
+h1 {
+    background: #ccc;
+    text-align: center;
+
+}
+p {
+    background: #ccc;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+}
+i {
+    font-size: 50px;
+    color: gold;
+}
+
+.burger {
+    color: black;
+}
+.up{
+    color: blue;
+}
+.star {
+    color: orange;
+}

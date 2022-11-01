@@ -1,0 +1,29 @@
+div{
+    border: 0px solid;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(221, 235, 20);
+    margin:auto;
+    
+  }
+.туз{
+    z-index: 99;
+    padding-top: 50px;
+    margin-left: 45px;
+}
+.кара{
+    margin-left: -60px;
+    position: fixed;
+    z-index: 99;
+    padding-top: 50px;
+}
+.кароль{
+    position: absolute;
+    margin-left: 5%;
+    z-index: 100;
+    padding-top: 50px;
+}
+body{
+    margin: 0;
+   height: 5000px;
+}

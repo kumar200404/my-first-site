@@ -1,0 +1,26 @@
+.a{
+    height: 640px;
+    display: flex; 
+    background: #838283;
+    flex-direction: row;
+    justify-content: center;
+}
+.a div{
+    float: left;
+     background: rgb(91, 136, 225);
+     border-radius: 5px;
+     padding: 5px;
+     margin-left: 10px;
+     width: 100px;
+}
+.a div:last-child{
+    background: red;
+    width: 100px;
+}
+.a div:first-child{
+    background: green
+    
+}
+.a div.ii{
+    background-image: url(https://www.iphones.ru/wp-content/uploads/2017/02/all-about-emoji-A1.jpg);
+}
